@@ -1,0 +1,5 @@
+Create a JavaScript Image Swapping project with 3 different images. You must create only ONE function named swapPic() and use parameters to make the function reusable. Add 3 images in HTML and give each image a unique ID. Add a separate button for each image. When Button 1 is clicked, Image 1 should change to a different image; when Button 2 is clicked, Image 2 should change; and when Button 3 is clicked, Image 3 should change. You must call the same swapPic() function for all three buttons and pass different arguments each time. Do not create separate functions for each image.
+
+
+
+used only onclick event :)

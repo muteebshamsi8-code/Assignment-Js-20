@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Swapping Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Favicon/js.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <main class="gallery">
+      <h1>Image Swapping Gallery</h1>
+
+      <div class="cards">
+        <div class="card">
+          <img id="img1" src="images/pic1.jpg" alt="Image 1" />
+
+          <div class="buttons">
+            <button onclick="swapPic('img1', 'images/pic4.jpg')">Change</button>
+
+            <button onclick="swapPic('img1', 'images/pic1.jpg')">Remove</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img id="img2" src="images/pic2.jpg" alt="Image 2" />
+
+          <div class="buttons">
+            <button onclick="swapPic('img2', 'images/pic5.jpg')">Change</button>
+
+            <button onclick="swapPic('img2', 'images/pic2.jpg')">Remove</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img id="img3" src="images/pic3.jpg" alt="Image 3" />
+
+          <div class="buttons">
+            <button onclick="swapPic('img3', 'images/pic6.jpg')">Change</button>
+
+            <button onclick="swapPic('img3', 'images/pic3.jpg')">Remove</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
